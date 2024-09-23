@@ -1,0 +1,10 @@
+{
+	"extends": "@web3-boilerplate/config-typescript/react-library.json",
+	"include": ["."],
+	"compilerOptions": {
+		"paths": {
+			"@web3-boilerplate/ui/*": ["./src/*"]
+		}
+	},
+	"exclude": ["dist", "build", "node_modules"]
+}

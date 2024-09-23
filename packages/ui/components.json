@@ -1,0 +1,19 @@
+{
+	"$schema": "https://ui.shadcn.com/schema.json",
+	"style": "default",
+	"rsc": true,
+	"tsx": true,
+	"tailwind": {
+		"config": "src/tailwind.config.ts",
+		"css": "src/globals.css",
+		"baseColor": "slate",
+		"cssVariables": true,
+		"prefix": ""
+	},
+	"aliases": {
+		"components": "@web3-boilerplate/ui/components",
+		"ui": "@web3-boilerplate/ui/components",
+		"utils": "@web3-boilerplate/ui/utils/cn",
+		"hooks": "@web3-boilerplate/ui/hooks"
+	}
+}
